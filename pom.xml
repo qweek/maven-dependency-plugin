@@ -89,7 +89,7 @@ under the License.
   </contributors>
 
   <properties>
-    <mavenVersion>3.0</mavenVersion>
+    <mavenVersion>3.6.2</mavenVersion>
     <doxiaVersion>1.9</doxiaVersion>
     <jettyVersion>9.4.22.v20191022</jettyVersion>
     <pluginTestingVersion>2.1</pluginTestingVersion>
