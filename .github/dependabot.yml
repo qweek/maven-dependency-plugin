@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.mockito:mockito-core
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: org.eclipse.jetty:jetty-webapp
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: org.eclipse.jetty:jetty-servlet
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: org.eclipse.jetty:jetty-server
+    versions:
+    - 11.0.0
+    - 11.0.1
+  - dependency-name: org.codehaus.plexus:plexus-archiver
+    versions:
+    - 4.2.3
+    - 4.2.4
+  - dependency-name: org.apache.maven.wagon:wagon-http-lightweight
+    versions:
+    - 3.4.2
